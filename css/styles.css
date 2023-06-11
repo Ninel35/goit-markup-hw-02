@@ -1,0 +1,80 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #E5E5E5;
+    color: #2E2F42;
+
+}
+
+.logo{
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-family: 'Raleway', sans-serif;
+        color: #4D5AE5;
+}
+
+.logo-highlight {
+    color: #2E2F42;
+}
+
+.header-nav-list a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    text-decoration: none;
+}
+
+.header-contacts-list a {
+    color: #434455;
+} 
+.button-list-text button{
+    font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+    cursor: pointer;
+        color: #4D5AE5;
+}
+.button-list-text button:hover, .button-list-text button:focus{
+    background-color: #404BBF;
+    color: #FFF;
+}
+.card-header{
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2E2F42;
+}
+.card-text{
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.footer-text{
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
+.footer{
+   background: #2E2F42;
+}
+.logo-studio{
+    color: #F4F4FD;
+}
+
+
