@@ -5,26 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--Header section-->
 
-    <header>
-      <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
+    <header class="header">
+      <nav class="header-nav">
+        <a href="./index.html" class="logo"
+          >Web<span class="logo-highlight">Studio</span></a
+        >
+
+        <ul class="header-nav-list">
           <li><a href="./index.html">Studio</a></li>
           <li><a href="./portfolio.html">Portfolio</a></li>
           <li><a href="">Contacts</a></li>
         </ul>
       </nav>
-      <address>
-        <ul>
+      <address class="header-contacts">
+        <ul">
           <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="header-contacts-list" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
           <li>
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+            <a class="header-contacts-list" href="tel:+110001111111">+11 (000) 111-11-11</a>
           </li>
         </ul>
       </address>
@@ -32,41 +40,41 @@
 
     <!--Main block-->
 
-    <main>
+    <main class="main page">
       <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+        <h1 class="title">Effective Solutions for Your Business</h1>
+        <button class="button-list-text" type="button">Order Service</button>
       </section>
 
       <!--Section Feature-->
 
       <section>
-        <h2>Section 2</h2>
+        <h2 hidden>Section 2</h2>
         <ul>
-          <li>
-            <h3>Strategy</h3>
-            <p>
+          <li class="section-feature">
+            <h3 class="feature-title">Strategy</h3>
+            <p class="feature-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
-            <h3>Punctuality</h3>
-            <p>
+            <h3 class="feature-title">Punctuality</h3>
+            <p class="feature-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h3>Diligence</h3>
-            <p>
+            <h3 class="feature-title">Diligence</h3>
+            <p class="feature-text">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h3>Technologies</h3>
-            <p>
+            <h3 class="feature-title">Technologies</h3>
+            <p class="feature-text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -77,7 +85,7 @@
       <!--Section What are we doing-->
 
       <section>
-        <h2>What are we doing</h2>
+        <h2 class="section-header">What are we doing</h2>
         <ul>
           <li>
             <img src="./images/index/img1.jpg" alt="img 1" width="360" />
@@ -94,27 +102,27 @@
       <!--Section Our Team-->
 
       <section>
-        <h2>Our Team</h2>
+        <h2 class="section-header">Our Team</h2>
         <ul>
           <li>
             <img src="./images/index/img4.jpg" alt="Team 1" width="264" />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <h3 class="card-header">Mark Guerrero</h3>
+            <p class="card-text">Product Designer</p>
           </li>
           <li>
             <img src="./images/index/img5.jpg" alt="Team 2" width="264" />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <h3 class="card-header">Tom Ford</h3>
+            <p class="card-text">Frontend Developer</p>
           </li>
           <li>
             <img src="./images/index/img6.jpg" alt="Team 3" width="264" />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <h3 class="card-header">Camila Garcia</h3>
+            <p class="card-text">Marketing</p>
           </li>
           <li>
             <img src="./images/index/img7.jpg" alt="Team 4" width="264" />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <h3 class="card-header">Daniel Wilson</h3>
+            <p class="card-text">UI Designer</p>
           </li>
         </ul>
       </section>

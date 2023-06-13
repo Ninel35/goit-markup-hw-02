@@ -29,10 +29,18 @@ body{
     text-decoration: none;
 }
 
-.header-contacts-list a {
-    color: #434455;
-} 
-.button-list-text button{
+.header-contacts-list {
+    color: #2E2F42;
+}
+.header-contacts-list:hover, .header-contacts-list:focus{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #404BBF;
+}
+
+
+.button-list-text{
     font-style: normal;
         font-weight: 500;
         font-size: 16px;
@@ -40,10 +48,41 @@ body{
     cursor: pointer;
         color: #4D5AE5;
 }
-.button-list-text button:hover, .button-list-text button:focus{
+.button-list-text:hover, .button-list-text:focus{
     background-color: #404BBF;
     color: #FFF;
 }
+
+
+.main page{
+    width: 1440px;
+    height: 2592px;
+     background: #FFFFFF;
+}
+.title{
+    font-weight: 700;
+        font-size: 56px;
+        line-height: 60px;
+        color: #FFFFFF;
+}
+.feature-title{
+    font-weight: 500;
+    font-size: 20px;
+    color: #2E2F42;
+}
+.feature-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #434455;
+}
+.section-header
+{font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+color: #2E2F42;}
+   
+
 .card-header{
 font-family: 'Roboto';
     font-style: normal;

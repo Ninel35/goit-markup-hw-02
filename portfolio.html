@@ -4,8 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -28,12 +26,16 @@
         </ul>
       </nav>
       <address class="header-contacts">
-        <ul class="header-contacts-list">
+        <ul>
           <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="header-contacts-list" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
           <li>
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+            <a class="header-contacts-list" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
           </li>
         </ul>
       </address>
@@ -42,21 +44,22 @@
     <!--Main block-->
 
     <main>
-      <h1 style="visibility: hidden">Effective Solutions for Your Business</h1>
+      <h1 hidden>Effective Solutions for Your Business</h1>
 
       <ul class="button-list">
-        <li class="button-list-text"><button type="button">All</button></li>
-        <li class="button-list-text">
-          <button type="button">Web Site</button>
+        <li><button type="button" class="button-list-text">All</button></li>
+        <li>
+          <button type="button" class="button-list-text">Web Site</button>
         </li>
-        <li class="button-list-text"><button type="button">App</button></li>
-        <li class="button-list-text"><button type="button">Design</button></li>
-        <li class="button-list-text">
-          <button type="button">Marketing</button>
+        <li><button type="button" class="button-list-text">App</button></li>
+        <li><button type="button" class="button-list-text">Design</button></li>
+        <li>
+          <button type="button" class="button-list-text">Marketing</button>
         </li>
       </ul>
 
-      <!--Section1-->
+      <!--Section-->
+
       <section>
         <ul>
           <li>
@@ -92,13 +95,7 @@
               <p class="card-text">App</p>
             </a>
           </li>
-        </ul>
-      </section>
 
-      <!--Section2-->
-
-      <section>
-        <ul>
           <li>
             <a href=""
               ><img
@@ -132,13 +129,7 @@
               <p class="card-text">Marketing</p>
             </a>
           </li>
-        </ul>
-      </section>
 
-      <!--Section3-->
-
-      <section>
-        <ul>
           <li>
             <a href=""
               ><img
