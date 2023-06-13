@@ -1,6 +1,11 @@
+:root {
+    --colorNavyBlue: #2E2F42;
+    --fonWhite: #FFFFFF;
+    
+}
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: #FFFFFF;
+    background-color: var(--fonWhite);
     color: #434455;
 
 }
@@ -17,7 +22,7 @@ body{
 }
 
 .logo-highlight {
-    color: #2E2F42;
+    color: var(--colorNavyBlue);
 }
 
 .header-nav-list a{
@@ -25,12 +30,12 @@ body{
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--colorNavyBlue);
     text-decoration: none;
 }
 
 .header-contacts-list {
-    color: #2E2F42;
+    color: var(--colorNavyBlue);
 }
 .header-contacts-list:hover, .header-contacts-list:focus{
     font-weight: 400;
@@ -62,7 +67,7 @@ body{
 .feature-title{
     font-weight: 500;
     font-size: 20px;
-    color: #2E2F42;
+    color: var(--colorNavyBlue);
 }
 .feature-text{
     font-weight: 400;
@@ -70,11 +75,12 @@ body{
     line-height: 24px;
     color: #434455;
 }
-.section-header
-{font-weight: 700;
+.section-header{
+    font-weight: 700;
 font-size: 36px;
 line-height: 40px;
-color: #2E2F42;}
+color: var(--colorNavyBlue);
+}
    
 
 
@@ -84,7 +90,7 @@ font-family: 'Roboto';
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-    color: #2E2F42;
+    color: var(--colorNavyBlue);
 }
 .card-text{
 font-family: 'Roboto';
@@ -105,7 +111,7 @@ font-family: 'Roboto';
     color: #F4F4FD;
 }
 .footer{
-   background-color: #2E2F42;
+   background-color: var(--colorNavyBlue);
 }
 .logo-studio{
     color: #F4F4FD;
