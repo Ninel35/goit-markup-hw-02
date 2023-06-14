@@ -3,7 +3,7 @@
     --fonWebsite: #FFFFFF;
     --logoAndButtonText: #4D5AE5;
     --backgroundButton: #F4F4FD;
-    
+    --contaktColor: #434455
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -33,8 +33,12 @@ body{
     letter-spacing: 0.02em;
     color: var(--colorNavyBlue);
 }
+.header-nav-list:hover, .header-nav-list:focus{
+    color: #404bbf
+}
 .header-contacts{
-    font-style: normal
+    font-style: normal;
+    color:var(--contaktColor);
 }
 
 .header-contacts-list {
@@ -45,10 +49,6 @@ body{
     font-style: normal;    
 }
 .header-contacts-list:hover, .header-contacts-list:focus{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     color: #404BBF;
 }
 .main-kontent {
@@ -60,7 +60,17 @@ body{
 .link{
     text-decoration: none;
 }
+.order-button{
+    font-family: "Roboto", sans-serif;
+    background-color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
 .button-list-text{
+    font-family: "Roboto", sans-serif;
     background-color: var(--backgroundButton);
     font-style: normal;
     font-weight: 500;
@@ -70,7 +80,8 @@ body{
     cursor: pointer;
     color: var(--logoAndButtonText);
 }
-.button-list-text:hover, .button-list-text:focus{
+.button-list-text:hover, .button-list-text:focus,
+ .order-button:hover, .order-button:focus {
     background-color: #404BBF;
     color: #FFF;
 }
@@ -109,6 +120,9 @@ body{
 .section-team{
     background-color: #F4F4FD;
 }
+.team-card{
+ background-color: #FFFFFF
+}
    
 
 
@@ -135,7 +149,7 @@ body{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.17;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
 }
