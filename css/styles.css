@@ -3,7 +3,7 @@
     --fonWebsite: #FFFFFF;
     --logoAndButtonText: #4D5AE5;
     --backgroundButton: #F4F4FD;
-    --contaktColor: #434455
+    --contactColor: #434455
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -45,7 +45,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--colorNavyBlue);
+    color: var(--contactColor);
     font-style: normal;    
 }
 .header-contacts-list:hover, .header-contacts-list:focus{
@@ -68,6 +68,7 @@ body{
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
+    cursor: pointer;
 }
 .button-list-text{
     font-family: "Roboto", sans-serif;
