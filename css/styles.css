@@ -8,7 +8,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     background-color: var(--fonWebsite);
-    color: #434455;
+    color: var(--contactColor);
 
 }
 
@@ -62,12 +62,12 @@ body{
 }
 .order-button{
     font-family: "Roboto", sans-serif;
-    background-color: #4D5AE5;
+    background-color: var(--logoAndButtonText);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color: var(--fonWebsite);
     cursor: pointer;
 }
 .button-list-text{
@@ -81,11 +81,12 @@ body{
     cursor: pointer;
     color: var(--logoAndButtonText);
 }
-.button-list-text:hover, .button-list-text:focus,
- .order-button:hover, .order-button:focus {
+.button-list-text:hover, .button-list-text:focus, .order-button:hover,
+ .order-button:focus{
     background-color: #404BBF;
-    color: #FFF;
+    color: var(--fonWebsite);
 }
+
 
 .title{
     font-weight: 700;
@@ -93,7 +94,7 @@ body{
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--fonWebsite);
 }
 .feature-title{
     font-weight: 500;
@@ -103,7 +104,6 @@ body{
     color: var(--colorNavyBlue);
 }
 .feature-text{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -119,17 +119,15 @@ body{
     color: var(--colorNavyBlue);
 }
 .section-team{
-    background-color: #F4F4FD;
+    background-color: var(--backgroundButton);
 }
 .team-card{
- background-color: #FFFFFF
+ background-color: var(--fonWebsite);
 }
    
 
 
 .card-header{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -137,28 +135,22 @@ body{
     color: var(--colorNavyBlue);
 }
 .card-text{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--contactColor);
 }
 .footer-text{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #F4F4FD;
+    color: var(--backgroundButton);
 }
 .footer{
    background-color: var(--colorNavyBlue);
 }
 .logo-studio{
-    color: #F4F4FD;
+    color: var(--backgroundButton);
 }
 
 
